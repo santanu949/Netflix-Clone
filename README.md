@@ -1,91 +1,16 @@
-# Netflix-Clone
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 📌 Project Overview
-This project is a **Netflix UI Clone** built using **React** with **Vite** as the build tool.  
-The main goal of this project is to understand modern React development, component-based architecture, and fast bundling using Vite.
+Currently, two official plugins are available:
 
-The application focuses on replicating the **frontend user interface** of Netflix, not backend services like authentication or payment.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## ⚙️ Tech Stack
-- **React.js** – Component-based UI development  
-- **Vite** – Fast development server and build tool  
-- **JavaScript (ES6+)** – Application logic  
-- **CSS / Tailwind CSS** – Styling and layout  
-- **TMDB API** (optional) – For fetching movie data  
+## React Compiler
 
-## ✨ Features
-- Netflix-style homepage UI  
-- Reusable React components  
-- Dynamic movie sections (Trending, Originals, etc.)  
-- Responsive design for different screen sizes  
-- Fast loading and hot module replacement using Vite  
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the ESLint configuration
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
-1. Clone the repository  
-   ```bash
-   git clone <repository-url>
-Navigate to the project directory
-
-cd netflix-clone
-Install dependencies
-
-npm install
-Start the development server
-
-npm run dev
-Open the browser and visit
-
-http://localhost:5173
-🔧 Vite Configuration
-Vite is used for:
-
-Faster development server
-
-Instant Hot Module Replacement (HMR)
-
-Optimized production builds
-
-Configuration can be found in vite.config.js.
-
-📚 Learning Outcomes
-React component structuring
-
-Props and state management
-
-API data fetching
-
-Clean folder architecture
-
-Using Vite instead of CRA
-
-🚧 Limitations
-No real authentication
-
-No backend or database
-
-UI-focused clone only
-
-🔮 Future Enhancements
-Add user authentication
-
-Integrate video playback
-
-Improve animations and transitions
-
-Deploy using Vercel or Netlify
-
-👤 Author
-Santanu Samanta
-B.Tech CSE Student
-
-This project is created strictly for educational and learning purposes.
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
