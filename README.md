@@ -6,7 +6,7 @@
 This project is a **Netflix UI Clone** built using **React** with **Vite** as the build tool.  
 The main goal of this project is to understand modern React development, component-based architecture, and fast bundling using Vite.
 
-The application focuses on replicating the **frontend user interface** of Netflix, not backend services like authentication or payments.
+The application focuses on replicating the **frontend user interface** of Netflix, not backend services like authentication or payment.
 
 ## ⚙️ Tech Stack
 - **React.js** – Component-based UI development  
