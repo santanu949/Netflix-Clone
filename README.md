@@ -1,6 +1,5 @@
 # Netflix-Clone
 
-# Netflix Clone
 
 ## 📌 Project Overview
 This project is a **Netflix UI Clone** built using **React** with **Vite** as the build tool.  
